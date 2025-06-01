@@ -46,10 +46,6 @@ PAGrid.CustomizerControl/
 │       └── style.css              # Custom styles
 ├── generated/
 │   └── ManifestTypes.d.ts         # Auto-generated manifest types
-├── Solution/
-│   └── PAGridCustomizerCtrl/
-│       ├── PAGridCustomizerCtrl.cdsproj # Solution project
-│       └── src/Other/             # Solution XMLs (Customizations, Relationships, etc.)
 ```
 
 ---
@@ -184,6 +180,3 @@ export async function generateSequence(entityName: string): Promise<number> {
 See `package.json` for license details.
 
 ---
-
-## Support
-For issues or feature requests, please contact the project maintainer or open an issue in your source repository.
